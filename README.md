@@ -1,16 +1,20 @@
-# Parking Management Database
+# Comic-Con India Parking Database
 
-This repository contains the SQL schema for a parking management system.
+A structured parking system for a multi-zone Comic-Con event.
 
-## Overview
+Tracks:
 
-- `Comic_con.sql` contains the database schema definitions.
-- `image.png` shows the ER diagram for the schema.
+- vehicles and vehicle categories
+- parking spots, zones, levels, and reserved categories
+- parking sessions with entry/exit times
+- tickets and payments
+- availability and spot reuse over time
 
 ## ER Diagram
 
-![Parking Management ER Diagram](image.png)
+![Parking System ER Diagram](image.png)
 
-## Usage
+## Files
 
-Open `Comic_con.sql` in your SQL editor or import it into your database management tool to create the schema.
+- `Comic_con.sql` — database schema
+- `image.png` — ER diagram
